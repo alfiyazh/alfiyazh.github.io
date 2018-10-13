@@ -1,0 +1,49 @@
+.bar{
+  width:100%;/*ширина контейнера */
+  height:40px;/*высота контейнера*/
+  background:red; /*цвет фона*/
+}
+.header{
+  width:935px;/*ширина контейнера*/
+  margin: auto; /*выравнивает элемент по центру*/
+
+}
+.desk{
+  width: 644px;/*ширина контейнера*/
+  margin: left 301
+}
+.list li{
+  display:inline-block;/* горизонтальное расположение пунктов*/
+  font-family: 'Crimson Text', serif;/*задает шрифт*/
+  margin-left:10px/*расстояние между пунктами li*/
+}
+.avatar{
+  width: 291px;/*ширина контейнера аватар*/
+  height:170px;/*высота*/
+}
+h1{
+  color:black;/*цвет заголовка*/
+text-align: center;/*расположение текста*/
+}
+
+img {
+  width:152px;
+  height:152px;
+  border-radius:50%;/*круглая картинка*/
+  float: left;/*расположение с лева*/
+
+}
+h2{
+  text-align: center;
+}
+body {
+  margin: 0 auto;/*отступ*/
+}
+.foto{
+  width: 935px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
