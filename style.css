@@ -1,7 +1,12 @@
 .bar{
   width:100%;/*ширина контейнера */
-  height:40px;/*высота контейнера*/
+/*  height:40px;высота контейнера*/
   background:red; /*цвет фона*/
+
+}
+.h1-and-i{
+  display: flex;
+  flex-direction: row;
 }
 .header{
   width:935px;/*ширина контейнера*/
@@ -11,6 +16,21 @@
 .avatar-and-desk{
   display: flex;
   flex-direction: row;
+}
+h1{
+  color:black;/*цвет заголовка*/
+/*text-align: center;/*расположение текста*/
+}
+fab fa-instagram{
+  width: 24px;
+  height: 24px;
+  float: left;
+}
+.potter {
+  background-color: #262626;
+    height: 28px;
+    margin: 0 16px;
+    width: 1px;
 }
 .desk{
   width: 644px;/*ширина контейнера*/
@@ -24,10 +44,6 @@
 .avatar{
   width: 291px;/*ширина контейнера аватар*/
   height:170px;/*высота*/
-}
-h1{
-  color:black;/*цвет заголовка*/
-text-align: center;/*расположение текста*/
 }
 
 .ava {
