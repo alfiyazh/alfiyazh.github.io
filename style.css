@@ -8,6 +8,10 @@
   margin: auto; /*выравнивает элемент по центру*/
 
 }
+.avatar-and-desk{
+  display: flex;
+  flex-direction: row;
+}
 .desk{
   width: 644px;/*ширина контейнера*/
   margin: left 301
@@ -26,7 +30,7 @@ h1{
 text-align: center;/*расположение текста*/
 }
 
-img {
+.ava {
   width:152px;
   height:152px;
   border-radius:50%;/*круглая картинка*/
@@ -39,11 +43,15 @@ h2{
 body {
   margin: 0 auto;/*отступ*/
 }
-.foto{
+.line{
   width: 935px;
   margin:auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-bottom: 0px;
   padding-top: 0px;
+}
+.box{
+  width: 293px;
+  height: 293px
 }
