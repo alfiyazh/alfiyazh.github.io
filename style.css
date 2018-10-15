@@ -53,5 +53,6 @@ body {
 }
 .box{
   width: 293px;
-  height: 293px
+  height: 293px;
+  margin-right: 28px;
 }
